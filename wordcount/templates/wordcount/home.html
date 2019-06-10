@@ -4,17 +4,19 @@
     </head>
     <body>
         
-        <h1>word counter</h1>
+        <center><h1>word counter</h1></center>
         
         <div class="grid-container">
             <div class="left"></div>
+            <center>
           <div class="main">
                   <form action="{% url 'result' %}">
                 <textarea name="fulltext" id="" cols="40" rows="10"></textarea>
-                <br>
+                <br><br>
                 <input type="submit" value="Count!">
             </form>
           </div>
+          </center>
           
           <div class="right"></div>
         </div>
