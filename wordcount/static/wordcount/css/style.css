@@ -1,0 +1,15 @@
+.grid-container {
+  display: flex;
+  width:500px;
+  height:200px;
+}
+
+.left{
+    width:20%;
+}
+.main{
+    width:60%;
+}
+.right{
+    width:20%;
+}

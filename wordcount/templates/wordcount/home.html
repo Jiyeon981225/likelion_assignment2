@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    </head>
+    <body>
+        
+        <h1>word counter</h1>
+        
+        <div class="grid-container">
+            <div class="left"></div>
+          <div class="main">
+                  <form action="{% url 'result' %}">
+                <textarea name="fulltext" id="" cols="40" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Count!">
+            </form>
+          </div>
+          
+          <div class="right"></div>
+        </div>
+    </body>
+</html>
+
